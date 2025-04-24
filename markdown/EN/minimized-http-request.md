@@ -27,7 +27,9 @@ By Reducing the number of requests you made:
 Minimizing by just remove files could make some of the webpage feature unusable or even malfunctioned. Here are the things we can do to minimize the request while keep the feature usable.
 
 1. :package: **Bundling CSS and JS Files**  
-   Bundlers like **Webpack**, **Vite** or **Parcel** combining multiple files into fewer files, and that's why its called bundler. This mechanism reduces request overhead. Mostly, using modern frontend framework , the bundle is done per **component** or **route** by chunks which is called **code splitting**.
+   Bundlers like **Webpack**, **Vite** or **Parcel** combining multiple files into fewer files, and that's why its called bundler. This mechanism reduces request overhead. Mostly, using modern frontend framework , the bundle is done per **component** or **route** by chunks which is called **code splitting**.  
+   &nbsp;  
+   ![Component to Chunks](https://github.com/dimasawardhana/picture-cloud/blob/main/component-to-chunks.webp?raw=true "Component to Chunks")
 
 2. :pencil: **Inline Critical CSS**  
    It's common to divide between CSS file and HTML file, whereas it can be combined into one like it's placed in the head tag inside style tag. When requesting for a page, all the file required will be fetched and this takes time. Inlining Critical CSS means adding the critical CSS (the content which is displayed on the first load) inline with HTML file. This will avoid blocking path when rendering, resulting a faster load.

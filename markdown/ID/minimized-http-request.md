@@ -27,7 +27,9 @@ Dengan mengurangi jumlah request :
 Meminimalisir dengan cara menghapus file dapat mengakibatkan beberapa fitur tidak bisa digunakan atau bahkan malfungsi. Berikut adalah beberapa hal yang bisa dilakukan untuk meminimalisir _request_ namun tetap mempertahankan fitur yang ada tetap berfungsi.
 
 1. :package: **_Bundling File_ CSS dan JS**  
-   Bundlers seperti **Webpack**, **Vite** atau **Parcel** menggabungkan beberapa _file_ menjadi _file_ yang lebih sedikit. Mekanisme ini mengurangi _request overhead_. Kebanyakan di framework modern, _bundle_ dibuat per **component** atau **route** sebagai _chunks_ yang biasa disebut **code splitting**.
+   Bundlers seperti **Webpack**, **Vite** atau **Parcel** menggabungkan beberapa _file_ menjadi _file_ yang lebih sedikit. Mekanisme ini mengurangi _request overhead_. Kebanyakan di framework modern, _bundle_ dibuat per **component** atau **route** sebagai _chunks_ yang biasa disebut **code splitting**.  
+   &nbsp;  
+   ![Component to Chunks](https://github.com/dimasawardhana/picture-cloud/blob/main/component-to-chunks.webp?raw=true "Component to Chunks")
 
 2. :pencil: **Inline Critical CSS**  
    Membagi antara file CSS dan HTML menjadi file terpisah adalah hal yang biasa, yang padahal dapat digabungkan menjadi satu file yang sama dengan cara menuliskan css dalam tag `<Head />`. Ketika membuat _request_ untuk sebuah _page_, semua _file_ yang dibutuhkan akan diambil dari server dan hal tersebut membutuhkan waktu.  
@@ -75,8 +77,6 @@ Meminimalisir dengan cara menghapus file dapat mengakibatkan beberapa fitur tida
    ```
 
    Meskipun tehnik - tehnik tersebut dapat menaikan kecepatan performa pada _page load_, perlu diingat bahwa, bisa jadi kita **tidak perlu menggunakan tehnik tersebut** pada beberapa kasus. **Optimasi kodenya hanya ketika kita memerlukannya**.
-
-   ![Alt text](https://github.com/dimasawardhana/picture-cloud/blob/main/component-to-chunks.png?raw=true "a title")
 
 ## 📚 Referensi
 
