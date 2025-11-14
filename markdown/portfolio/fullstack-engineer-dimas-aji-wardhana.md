@@ -13,6 +13,14 @@ Fullstack Software Engineer with 4+ years of experience building scalable web ap
 
 ### 💼 Professional Experience
 
+**HyperscalID** — _Backend Software Engineer_  
+_Bandung, Indonesia | Jan 2023 – Present_
+
+- Initiated the development of a Multi-Factor Authentication (MFA) service (email + authenticator app), enhancing system security and identity management.
+- Built a migration duplication validator, ensuring 100% data consistency across microservices.
+- Developed a modular user management service with 85% test coverage, reducing feature onboarding time by 30%.
+- Established integration testing pipelines, boosting deployment reliability by 40% and cutting production issues by 25%.
+
 **eFishery** — _Fullstack Software Engineer_  
 _Bandung, Indonesia | Jan 2023 – Present_
 

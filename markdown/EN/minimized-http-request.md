@@ -6,7 +6,7 @@ have you ever tried gone into a website, and wait for a long time before the fir
 
 So, to overcome this **slow performance**, let's talk about how minimizing http request can help.
 
-## 🧠 Why should we minimize the request ?
+## Why should we minimize the request ?
 
 By Reducing the number of requests you made:
 
@@ -22,7 +22,7 @@ By Reducing the number of requests you made:
 4. **Mobile Experience**  
    Making sure that the webpage still accessible even on the slow network, because only few request needed to make the webpage displaying.
 
-## :gear: Then, what can we do to minimize the request?
+## Then, what can we do to minimize the request?
 
 Minimizing by just remove files could make some of the webpage feature unusable or even malfunctioned. Here are the things we can do to minimize the request while keep the feature usable.
 
@@ -56,7 +56,7 @@ Minimizing by just remove files could make some of the webpage feature unusable 
 
    &nbsp;
 
-5. :stopwatch: **Lazy load Component**  
+5. **Lazy load Component**  
    Lazy loading component fetches the component only when it is needed. This technique creates separate chunks to load. So, when the component is not used, it won't be loaded. making the initial load of the page faster.  
    To implement Lazy loading in React/NextJS, we can use `React.Lazy()` along with `<Suspense />`.  
    &nbsp;  
@@ -76,7 +76,7 @@ Minimizing by just remove files could make some of the webpage feature unusable 
 
    Even these techniques would likely boost performance speed on your page load, be mind that you **may not need** these in some cases. **Optimize the code when you need it**.
 
-## 📚 References
+## References
 
 1. [web.dev – Reduce JavaScript Payloads](https://web.dev/reduce-javascript-payloads/)
 2. [vite-plugin-svg-icons](https://github.com/vbenjs/vite-plugin-svg-icons)
